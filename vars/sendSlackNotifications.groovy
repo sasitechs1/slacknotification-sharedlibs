@@ -21,8 +21,8 @@
     colorName = 'RED'
     colorCode = '#FF0000'
   }
- 
 
   // Send notifications
   slackSend (color: colorCode, message: summary, channel: "#devops")
 }
+
